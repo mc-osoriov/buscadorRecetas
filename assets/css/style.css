@@ -20,8 +20,26 @@ a:hover{
     color: orange;
 }
 
+.btn{
+    border-radius: 4;
+    padding: 12px 30px;
+}
+
+.btn-brand{
+    color: white;
+    font-weight: 500;
+    border-color: orange;
+    background-color: orange;
+}
+
+.btn-brand:hover{
+    border-color: orange;
+}
+
+
 section{
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .shadow-on-hover{
@@ -58,6 +76,24 @@ section{
     margin: 16px auto 0 auto;
 }
 
+/* Search bar */
+.h-search-form{
+    width: 100%;
+    position: relative;
+}
+
+.h-search-form input{
+    width: 75%;
+    padding: 0 30px;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+}
+
+.h-search-form button{
+    right: 10px;
+}
+
 /* Menú */
 #menu .nav-pills .nav-link{
     background-color: white;
@@ -69,4 +105,9 @@ section{
 #menu .nav-pills .nav-link.active{
     background-color: orange;
     color: white;
+}
+
+/* Receta */
+#receta{
+    background: linear-gradient(#00000098, #00000098), url(../images/item1.jpeg);
 }
