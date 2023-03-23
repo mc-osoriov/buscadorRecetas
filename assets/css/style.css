@@ -38,8 +38,8 @@ a:hover{
 
 
 section{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .shadow-on-hover{
@@ -110,4 +110,10 @@ section{
 /* Receta */
 #receta{
     background: linear-gradient(#00000098, #00000098), url(../images/item1.jpeg);
+}
+
+/* Mapa */
+#map {
+	height: 500px;
+	width: 100%;
 }
